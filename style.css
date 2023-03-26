@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-pic {
+  height: 120px;
+  width: auto;
+  margin-top: 14px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 10px;
+}
+
+.link {
+  width: 100%;
+  background-color: rgb(221, 167, 97);
+  color: aliceblue;
+  margin: 9px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
